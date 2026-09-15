@@ -1,2 +1,10 @@
 /* Premium storefront polish — loaded after the base stylesheet. */
-.product-card{transition:transform .25s ease}.product-card:hover{transform:translateY(-3px)}
+:root{--gold:#a88a52;--gold-soft:#c5b184}
+.product-card{transition:transform .25s ease,filter .25s ease}.product-card:hover{transform:translateY(-3px)}
+.product-image{isolation:isolate}.product-image:after{content:"";position:absolute;inset:0;border:1px solid rgba(168,138,82,.0);transition:border-color .25s ease;pointer-events:none}.product-card:hover .product-image:after{border-color:rgba(168,138,82,.55)}
+.nav-cta,.button{transition:transform .2s ease,background-color .2s ease,color .2s ease,border-color .2s ease}.nav-cta:hover{background:#211b16;color:#fff}
+.button-dark:hover{background:#332a23}.button-light:hover{border-color:#211b16;background:#fffaf3}
+.category-pills a,.product-meta>a,.text-link,.collection-callout a{transition:all .2s ease}
+.category-pills a:focus-visible,.nav-links a:focus-visible,.nav-cta:focus-visible,.button:focus-visible,.text-link:focus-visible,.product-image:focus-visible,.product-meta>a:focus-visible,.whatsapp-float:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@media(max-width:600px){.nav{gap:12px}.nav-cta{white-space:nowrap}.hero-image-main{right:0}.hero-image-small{left:0}.hero-note{max-width:70%}.marquee-track{animation-duration:22s}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.marquee-track{animation:none}.product-card,.product-image img,.button,.nav-cta{transition:none}}

@@ -1,0 +1,1 @@
+Jewel Hub UK temporary image assets are currently SVG placeholders. Replace these with final client-approved product photography when supplied: peacock.svg, temple.svg, coin.svg.

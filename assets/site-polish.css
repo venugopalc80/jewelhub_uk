@@ -1,0 +1,2 @@
+/* Premium storefront polish — loaded after the base stylesheet. */
+.product-card{transition:transform .25s ease}.product-card:hover{transform:translateY(-3px)}
